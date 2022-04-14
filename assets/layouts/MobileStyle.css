@@ -89,9 +89,189 @@ body {
 }
 
 /* ВСе стало лучше  */
+.section-become-better {
+    height: 96.87vh;
+}
 .title__become-better  {
     color: #82B428;
     width: 50.26vw;
+}
+.tile_slide1 {
+    background: url('../images/mobile/slider-better.png');
+    background-size: cover;
+    width: 81vw;
+    height: 74.12vh;
+}
+.tile_slide2 {
+    background: url('../images/mobile/slider-better.png');
+    background-size: cover;
+    width: 81vw;
+    height: 74.12vh;
+}
+.tile_slide3 {
+    background: url('../images/mobile/slider-better.png');
+    background-size: cover;
+    width: 81vw;
+    height: 74.12vh;
+}
+.tile_slide4 {
+    background: url('../images/mobile/slider-better.png');
+    background-size: cover;
+    width: 81vw;
+    height: 74.12vh;
+}
+.tile_slide5 {
+    background: url('../images/mobile/slider-better.png');
+    background-size: cover;
+    width: 81vw;
+    height: 74.12vh;
+}
+.tile_slide6 {
+    background: url('../images/mobile/slider-better.png');
+    background-size: cover;
+    width: 81vw;
+    height: 74.12vh;
+}
+.tile__slides {
+    position: absolute;
+}
+.tiles__title-become-better {
+    font-size: 3.75vh;
+    width: 49vw;
+    height: 7vh;
+    text-align: left;
+    padding-left: 4vw;
+    top: 54vh;
+}
+.tile__slides {
+    opacity: 0;
+    transition: opacity ease-in-out .5s;
+}
+.tiles__controls {
+    position: absolute;
+}
+#tiles-slide1:checked ~ .tiles__controls > .tiles__control:nth-of-type(1),
+#tiles-slide2:checked ~ .tiles__controls > .tiles__control:nth-of-type(2),
+#tiles-slide3:checked ~ .tiles__controls > .tiles__control:nth-of-type(3),
+#tiles-slide4:checked ~ .tiles__controls > .tiles__control:nth-of-type(4),
+#tiles-slide5:checked ~ .tiles__controls > .tiles__control:nth-of-type(5),
+#tiles-slide6:checked ~ .tiles__controls > .tiles__control:nth-of-type(6) {
+    background: #2DA3DC;
+}
+
+#tiles-slide1:checked ~ .tiles__display > .tiles__slider > .tile_slide1,
+#tiles-slide2:checked ~ .tiles__display > .tiles__slider > .tile_slide2,
+#tiles-slide3:checked ~ .tiles__display > .tiles__slider > .tile_slide3,
+#tiles-slide4:checked ~ .tiles__display > .tiles__slider > .tile_slide4,
+#tiles-slide5:checked ~ .tiles__display > .tiles__slider > .tile_slide5,
+#tiles-slide6:checked ~ .tiles__display > .tiles__slider > .tile_slide6{
+    opacity: 1;
+    z-index: 1;
+}
+.tile__slides:hover .tile__slider_gradient .tiles__description {
+    display: none;
+}
+.tile__slides:hover .tile__slider_gradient {
+    background: none;
+}
+.tiles {
+    position: relative;
+}
+.tiles__control-become-better {
+    position: absolute;
+    top: 80vh;
+    left: 25vw;
+}
+/* Квартиры для яркой жизни */
+.section-floor-for {
+    height: 96.87vh;
+}
+/* Второй плиточный слайдер */
+.tiles__title-exmple {
+    font-size: 3.75vh;
+    text-align: center;
+}
+.tile_slide1-second {
+    background: url('../images/mobile/slider3.png');
+    background-size: cover;
+}
+.tile_slide2-second {
+    background: url('../images/mobile/slider3.png');
+    background-size: cover;
+}
+.tile_slide3-second {
+    background: url('../images/mobile/slider3.png');
+    background-size: cover;
+}
+.tile__slides_mobile {
+    width: 80.26vw;
+    height: 96.56vh;
+    border-radius: 50px;
+    position: absolute;
+    top: 8vh;
+    opacity: 0;
+    transition: opacity ease-in-out .5s;
+}
+.tiles__third-elem {
+    position: relative;
+    height: 120vh;
+}
+
+.tiles__controls-third{
+    position: absolute;
+    left: 25.9vw;
+    width: 8.5vh;
+    top: 108vh;
+    left: 35.7vw;
+}
+.tiles__control {
+    content: " ";
+    display: inline-block;
+    height: 1.56vh;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    position: relative;
+    transition: background ease-in-out .5s;
+    background: #E5E5E5;
+}
+.tiles__control:not(:last-child) {
+    margin-right: 2.5vw;
+}
+
+#tiles-slide1-second:checked  ~ .tiles__controls-third > .tiles__control:nth-of-type(1),
+#tiles-slide2-second:checked  ~ .tiles__controls-third > .tiles__control:nth-of-type(2),
+#tiles-slide3-second:checked  ~ .tiles__controls-third > .tiles__control:nth-of-type(3) {
+    background: #2DA3DC;
+}
+
+#tiles-slide1-second:checked ~.tiles__display > .tiles__slider > .tile_slide1-second,
+#tiles-slide2-second:checked ~.tiles__display > .tiles__slider > .tile_slide2-second,
+#tiles-slide3-second:checked ~.tiles__display > .tiles__slider > .tile_slide3-second{
+    opacity: 1;
+    z-index: 1;
+}
+
+/* Квартиры с чистовой отделкой */
+.view-floor {
+    background: url('../images/mobile/checkfloor.png');
+    background-size: cover;
+    height: 95.78vh;
+    width: 80.26vw;
+    border-radius: 50px;
+}
+.view-floor__title {
+    font-size: 5.62vh;
+    top: 8.9vh;
+    left: 7.73vw;
+    text-align: center;
+    width: 68.6vw;
+    text-transform: uppercase;
+}
+.view-floor__button {
+    font-size: 3.12vh;
+    left: 3.2vw;
+    top: 85.31vh;
+    width: 73.3vw;
 }
 
 /* Скидки для своих */
