@@ -1,0 +1,721 @@
+@import "../fonts/font.css";
+
+.header-container{
+    margin-bottom: 10.7vh;
+}
+
+.header {
+    background: url('../images/backgrounds/BackgroungHeader.svg');
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+}
+
+.header-circle__item {
+    border-radius: 50%;
+}
+
+.header-circle__item_blue {
+    background: linear-gradient(#8DCEED, #2DA3DC);
+    width: 5.5vw;
+    aspect-ratio: 1;
+    position: absolute;
+    left: 52.5vw;
+    top: 18vw;
+}
+
+.header-circle__item_green {
+    background: linear-gradient(#C5D210, #82B428);
+    width: 14vw;
+    aspect-ratio: 1;
+    position: absolute;
+    left: 40vw;
+    top: 4vw;
+}
+
+.header-circle__item_white {
+    background: white;
+    width: 34.5vw;
+    aspect-ratio: 1;
+    position: absolute;
+    left: 13.7vw;
+    top: 6.5vw;
+}
+
+.header-circle__name-company {
+    position: absolute;
+    left: 7.5vw;
+    top: 10.3vh;
+}
+
+.logo__name-company {
+    width: 12.6vw;
+    height: 6.6vh;
+}
+
+.header__description {
+    font-weight: 400;
+    font-size: 1.3vw;
+    width: 21vw;
+    position: absolute;
+    top: 39vh;
+    left: 7.5vw;
+}
+
+.header__description_green {
+    color: #82B428;
+    font-weight: 800;
+    font-size: 2.7vw;
+    text-transform: uppercase;
+    position: absolute;
+    width: 27vw;
+    top: 19.7vh;
+    left: 7.5vw;
+}
+
+.header-circle__button {
+    font-weight: 500;
+    font-size: 1vw;
+    background: linear-gradient(#BC1822, #E53322);
+    border-radius: 50px;
+    color: #ffffff;
+    border: none;
+    width: 14.3vw;
+    height: 4.7vh;
+    position: absolute;
+    top: 54vh;
+    left: 7.5vw;
+}
+
+.header-circle__button:hover {
+    cursor: pointer;
+    box-shadow: inset 0 0 0.5vw rgb(0, 0, 0, 0.6);
+}
+
+.header__button-down {
+    position: absolute;
+    left: 48.6vw;
+    top: 92vh;
+}
+
+.header__button-down:hover {
+    transform: scale(1.3);
+    transition: all 1.2s;
+}
+
+.container {
+    width: 57.8vw;
+    margin: 0 auto;
+}
+
+
+
+
+.title {
+    font-weight: 800;
+    font-size: 2vw;
+    text-transform: uppercase;
+    margin-bottom: 4.2vh;
+}
+/*из яркого в новый красивый*/
+
+.description__title {
+    color: #82B428;
+    width: 20.1vw;
+}
+
+.description__text {
+    width: 21.8vw;
+    font-size: 1.25vw;
+}
+
+.description__image {
+    width: 33vw;
+    height: 40.7vh;
+    position: absolute;
+    left: 45.8vw;
+    top: 110.7vh;
+}
+.section {
+    margin-bottom: 10.8vh;
+}
+
+/*Всё стало ещё лучше*/
+.title__become-better {
+    color: #2DA3DC;
+}
+
+.tiles__input {
+    display: none;
+} 
+
+.tiles__slider {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.tile_slide1 {
+    background: url('../images/pictures/BecomeBetter/Better1.png');
+}
+.tile_slide2 {
+    background: url('../images/pictures/BecomeBetter/Better2.png');
+}
+.tile_slide3 {
+    background: url('../images/pictures/BecomeBetter/Better3.png');
+}
+.tile_slide4 {
+    background: url('../images/pictures/BecomeBetter/Better4.png');
+}
+.tile_slide5 {
+    background: url('../images/pictures/BecomeBetter/Better5.png');
+}
+.tile_slide6 {
+    background: url('../images/pictures/BecomeBetter/Better6.png');
+}
+
+.tile__slides {
+    width: 18.2vw;
+    height: 29.1vh;
+    background-repeat: no-repeat;
+    margin-bottom: 3.1vh;
+    position: relative;
+    border-radius: 10px;
+    background-size: cover;
+}
+
+.tiles__description {
+    display: none;
+    font-size: 0.78vw;
+    font-weight: 500;
+    position: absolute;
+}
+
+.tiles__title {
+    position: absolute;
+    bottom: 3.3vh;
+    left: 1.45vw;
+    font-weight: 500;
+    font-size: 1.25vw;
+    color: #FFFFFF;
+}
+
+.tile__slides:hover .tile__slider_gradient .tiles__description {
+    display: block;
+    width: 15.3vw;
+    height: 13.9vh;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 0.6vw;
+}
+
+.tile__slides:hover .tile__slider_gradient {
+    background: linear-gradient(rgb(0, 0, 0, 0.6),rgb(0, 0, 0, 0.6));
+    width: 18.2vw;
+    height: 29.1vh;
+    border-radius: 10px;
+}
+
+.tile__slides:hover .tile__slider_gradient .tiles__title {
+    top: 5.1vh;
+    left: 1.45vw;
+}
+
+.tile__slides:hover .tile__slider_gradient .tiles__description {
+    top: 15.04vh;
+    left: 1.45vw;
+}
+
+/* квартиры для яркой жизни */
+
+.title__floor {
+    color: #82B428;
+}
+
+.slider__plan {
+    position: relative;
+}
+
+.plan__display {
+    margin-bottom: 6.37vh;
+    width: 59.37vw;
+    height: 56.9vh;
+}
+
+.plan__input {
+    display: none;
+}
+
+.plan-slide1 {
+    background: url('../images/pictures/SliderPlan/PlanSlide.png');
+}
+.plan-slide2 {
+    background: url('../images/pictures/SliderPlan/PlanSlide.png');
+}
+.plan-slide3 {
+    background: url('../images/pictures/SliderPlan/PlanSlide.png');
+}
+.plan-slide4 {
+    background: url('../images/pictures/SliderPlan/PlanSlide.png');
+}
+
+.plan-slides {
+    background-repeat: no-repeat;
+    opacity: 0;
+    background-size: cover;
+    overflow: hidden;
+    border-radius: 20px;
+    width: 59.37vw;
+    height: 56.9vh;
+    position: absolute;
+    box-shadow: 0.2vw 0.2vw 1vw rgba(0, 0, 0, 0.2);
+    z-index: 0;
+    transform: scale(1.5);
+    transition: transform ease-in-out .5s, opacity ease-in-out .5s;
+}
+
+.plan__controls {
+    position: absolute;
+    left: 25.9vw;
+    width: 6.4vw;
+}
+
+.plan__control {
+    cursor: pointer;
+    display: inline-block;
+    height: 1.24vh;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    position: relative;
+    transition: background ease-in-out .5s;
+    background: #E5E5E5;
+    content: " ";
+}
+.plan__control:not(:last-child) {
+    margin-right: 0.93vw;
+}
+
+.plan__control:hover,
+#plan-slider1:checked ~ .plan__controls .plan__control:nth-of-type(1),
+#plan-slider2:checked ~ .plan__controls .plan__control:nth-of-type(2),
+#plan-slider3:checked ~ .plan__controls .plan__control:nth-of-type(3),
+#plan-slider4:checked ~ .plan__controls .plan__control:nth-of-type(4){
+    background: #2DA3DC;
+}
+
+#plan-slider1:checked ~ .plan__display > .plan-slide1,
+#plan-slider2:checked ~ .plan__display > .plan-slide2,
+#plan-slider3:checked ~ .plan__display > .plan-slide3,
+#plan-slider4:checked ~ .plan__display > .plan-slide4 {
+    opacity: 1;
+    z-index: 1;
+    transform: scale(1);
+}
+
+.plan__preview img {
+    width: 19.53vw;
+    height: 29.55vh;
+}
+.plan__title {
+    font-weight: 800;
+    font-size: 1.25vw;
+    margin-bottom: 3.85vh;
+}
+
+.plan__description {
+    font-weight: 400;
+    font-size: 0.88vw;
+    width: 16.04vw;
+    height: 11.96vh;
+    margin-bottom: 2.39vh;
+}
+
+.plan__preview button {
+    font-weight: 500;
+    font-size: 1.04vw;
+    border-radius: 50px;
+    color: #FFFFFF;
+    background: linear-gradient(#C5D210, #82B428);
+    border: none;
+    width: 12.55vw;
+    height: 5.3vh;
+}
+
+.plan__preview button:hover {
+    cursor: pointer;
+    box-shadow: inset 0 0 0.5vw rgb(0, 0, 0, 0.6);
+}
+
+.plan__preview,
+.plan__info {
+    width: 40.62vw;
+    position: absolute;
+    left: 19.06vw;
+}
+
+.plan__preview {
+    top: 7.28vh;
+}
+.plan__preview_container {
+    position: absolute;
+    top: 0;
+    left: 21.87vw;
+}
+
+.plan__count {
+    position: absolute;
+    left: 2.23vw;
+}
+
+.plan__preview + hr {
+    width: 36vw;
+    position: absolute;
+    top: 40.99vh;
+    left: 20.91vw;
+}
+
+.plan__info {
+    top: 43.6vh;
+    left: 20.98vw;
+}
+
+.plan__price,
+.plan__area,
+.plan__section, 
+.plan__floor {
+    font-weight: 400;
+    font-size: 0.88vw;
+    position: absolute;
+}
+.plan__area {
+    left: 20.87vw;
+}
+.plan__section {
+    left: 28.11vw;
+}
+.plan__floor {
+    left: 34.05vw;
+}
+
+.plan__info_font-size {
+    font-weight: 800;
+    font-size: 1.14vw;
+    position: absolute;
+    top: 2.5vh;
+    left: 0vw;
+    width: 15vw;
+}
+
+/* Второй плиточный слайдер */
+.tile_slide1-second {
+    background: url('../images/pictures/SliderAdvantages/advantages1.png');
+    background-size: cover;
+}
+.tile_slide2-second {
+    background: url('../images/pictures/SliderAdvantages/advantages2.png');
+    background-size: cover;
+}
+.tile_slide3-second {
+    background: url('../images/pictures/SliderAdvantages/advantages3.png');
+    background-size: cover;
+}
+
+.button {
+    border-radius: 50px;
+    border: none;
+    width: 12.55vw;
+    height: 5.3vh;
+    font-weight: 500;
+    font-size: 1.04vw;
+    color: #FFFFFF;
+}
+.button:hover {
+    cursor: pointer;
+    box-shadow: inset 0 0 0.5vw rgb(0, 0, 0, 0.6);
+}
+.view-floor__button {
+    background: linear-gradient(#C5D210, #82B428);
+    position: absolute;
+    top: 26.43vh;
+    left: 39.89vw;
+}
+
+.view-floor {
+    background: url('../images/backgrounds/view-floor.png');
+    background-size: cover;
+    width: 57.81vw;
+    height: 36.42vh;
+    position: relative;
+}
+.view-floor__title {
+    color: #646865;
+    font-weight: 800;
+    font-size: 1.87vw;
+    width: 14.79vw;
+    position: absolute;
+    top: 10.3vh;
+    left: 39.94vw;
+}
+
+/* секция микрогород, прекрасный в деталях */
+
+.title__microcity {
+    width: 25.51vw;
+    text-align: center;
+    margin: 0 auto;
+    color: #2DA3DC;
+    margin-bottom: 4.57vh;
+}
+
+.button__more {
+    color: #C5C5C5;
+    font-weight: 800;
+    font-size: 1.25vw;
+    text-decoration: none;
+    display: block;
+    width: 9vw;
+    margin: 0 auto;
+}
+
+.tile__grow {
+    width: 21.61vw;
+
+}
+.tile__shrink {
+    width: 14.89vw;
+}
+
+.tile_slide1-microcity {
+    background: url('../images/pictures/SliderMicrocity/microcity-view1.png');
+}
+.tile_slide2-microcity {
+    background: url('../images/pictures/SliderMicrocity/microcity-view2.png');
+}
+.tile_slide3-microcity {
+    background: url('../images/pictures/SliderMicrocity/microcity-view3.png');
+}
+.tile_slide4-microcity {
+    background: url('../images/pictures/SliderMicrocity/microcity-view4.png');
+}
+.tile_slide5-microcity {
+    background: url('../images/pictures/SliderMicrocity/microcity-view5.png');
+}
+.tile_slide6-microcity {
+    background: url('../images/pictures/SliderMicrocity/microcity-view6.png');
+}
+.tile_slide7-microcity {
+    background: url('../images/pictures/SliderMicrocity/microcity-view7.png');
+}
+.tile_slide8-microcity {
+    background: url('../images/pictures/SliderMicrocity/microcity-view8.png');
+}
+.tile_slide9-microcity {
+    background: url('../images/pictures/SliderMicrocity/microcity-view9.png');
+}
+.tile__slides {
+    background-size: cover;
+}
+
+/* секция скидки */
+.discount {
+    background: url('../images/backgrounds/HappyFamily.png');
+    height: 49.21vh;
+    background-size: cover;
+}
+.discount-container {
+    position: relative;
+}
+.discount__title {
+    width: 12vw;
+    color: #2DA3DC;
+    position: absolute;
+    top: 6.45vh;
+}
+.discount__description {
+    width: 23.02vw;
+    height: 14.04vh;
+    position: absolute;
+    top: 17.89vh;
+    font-weight: 400;
+    font-size: 1.25vw;
+}
+.button__discount {
+    background: linear-gradient(#C5D210, #82B428);
+    position: absolute;
+    top: 36.72vh;
+}
+
+/* Оставить заявку */
+.discount-application_background {
+    width: 100vw;
+    height: 100vh;
+    background: rgba(34, 34, 34, 0.678);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9997;
+    display: none;
+}
+.discount-application {
+    background: #FFFFFF;
+    width: 37.29vw;
+    height: 35.57vh;
+    border-radius: 50px;
+    padding: 8.42vh 4.01vw  6.03vh;
+    position: fixed;
+    top: 20%;
+    left: 26%;
+    
+}
+.discount-application__title {
+    width: 20.15vw;
+    margin: 0 auto;
+    color: #2DA3DC;
+    margin-bottom: 4.05vh;
+}
+.discount-application__form {
+    width: 29.27vw;
+    margin: 0 auto;
+}
+.input-form {
+    border: 1px solid #C4C4C4;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    margin-bottom: 1vh;
+}
+.input-form__checkbox {
+    width: 27.55vw;
+    margin: 0 auto;
+    font-weight: 400;
+    font-size: 0.98vw;
+    margin-bottom: 2vh;
+}
+.confirmed_color {
+    color: #2DA3DC;
+}
+.button_color_blue {
+    background: linear-gradient(34.66deg, #2DA3DC 16.88%, #30D3DD 76%);
+    position: absolute;
+    left: 26.2vw;
+}
+
+/* просто переезжаете */
+.easy-move-container {
+    position: relative;
+}
+.easy-move__title {
+    color: #2DA3DC;
+    width: 20.15vw;
+}
+.easy-move__description {
+    width: 21.51vw;
+    font-weight: 400;
+    font-size: 1.25vw;
+}
+.easy-move__picture {
+    width: 32.65vw;
+    height: 46.72vh;
+    position: absolute;
+    top: 0;
+    left: 24.68vw;
+}
+
+/* хочу жить в новом квартале */
+.wantlive {
+    background: url('../images/backgrounds/send-background.png');
+    background-size: cover;
+    height: 40.37vh;
+}
+.wantlive-container {
+    position: relative;
+}
+.wantlive__title {
+    color: #82B428;
+    width: 20.88vw;
+    position: absolute;
+    top: 9.05vh;
+}
+.wantlive__description {
+    width: 21.4vw;
+    font-weight: 400;
+    font-size: 1.25;
+    position: absolute;
+    top: 20.39vh;
+    color: #FFFFFF;
+}
+.wantlive-input {
+    position: absolute;
+    top: 9.05vh;
+    left: 28.59vw;
+}
+.input {
+    width: 29.27vw;
+    height: 6.45vh;
+    border-radius: 50px;
+    border: none;
+    color: #C4C4C4;
+    padding-left: 1.51vw;
+    font-weight: 400;
+    font-size: 1.35vw;
+}
+.input:not(:last-child) {
+    margin-bottom: 1.14vh;
+}
+.button-send {
+    background: linear-gradient(#C5D210, #82B428);
+    position: absolute;
+    right: 0;
+    top: 16.44vh;
+}
+
+/* footer */
+.footer {
+    background-color: #2DA3DC;
+    height: 31.73vh;
+}
+.container-footer {
+    position: relative;
+}
+.footer-logo {
+    position: absolute;
+    top: 6.76vh;
+    transform: scale(0.7);
+}
+.footer-partner__logo {
+    position: absolute;
+    top: 7.76vh;
+    left: 44.89vw;
+    transform: scale(0.7);
+}
+.socials {
+    position: absolute;
+    top: 6.03vh;
+    left: 24.58vw;
+    transform: scale(0.7);
+}
+.socials__link:not(:last-child) {
+    margin-right: 1.19vw;
+}
+.footer-data {
+    color: #FFFFFF;
+    position: absolute;
+    top: 13.11vh;
+    left: 17vw;
+}
+.phone {
+    font-weight: 700;
+    font-size: 1.56vw;
+    text-align: center;
+    margin-bottom: 3vh;
+}
+.info-worker {
+    width: 25.85vw;
+    margin-bottom: 1.5vh;
+}
+.info-worker,
+.footer-politics {
+    font-weight: 400;
+    font-size: 0.62vw;
+    text-align: center;
+}
+

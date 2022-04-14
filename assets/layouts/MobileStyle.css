@@ -1,0 +1,250 @@
+@import "../fonts/font.css";
+
+body {
+    width: 100vw;
+}
+
+.header-container{
+    margin-bottom: 7.18vh;
+}
+.title {
+    font-size: 3.75vh;
+}
+.header {
+    background: url('../images/mobile/backgrounds/HeaderBG.png');
+    height: 100vh;
+    width: auto;
+    max-width: 100%;
+    background-size: cover;
+    position: relative;
+}
+.header__button-down {
+    display: none;
+}
+.header-circle__item_blue {
+    width: 21.86vw;
+    aspect-ratio: 1;
+    top: 11.09vh;
+    left: 36.26vw;
+}
+.header-circle__item_green {
+    width: 41.6vw;
+    aspect-ratio: 1;
+    top: 64.53vh;
+    left: 54.66vw;
+}
+.header-circle__item_white {
+    width: 89.6vw;
+    aspect-ratio: 1;
+    top: 24.21vh;
+    left: -10.93vw;
+}
+.header-circle__name-company {
+    top: 9.06vh;
+    left: 18.93vw;
+}
+.logo__name-company {
+    width: 23.46vw;
+    height: 5.46vh;
+}
+.header__description {
+    font-size: 1.87vh;
+    top: 29.87vh;
+    left: 19.46vw;
+    width: 50.4vw;
+}
+.header__description_green {
+    font-size: 3.75vh;
+    top: 14.86vh;
+    left: 18.93vw;
+    width: 50.93vw;
+}
+.header-circle__button {
+    top: 39.87vh;
+    left: 18.93vw;
+    width: 43.73vw;
+    font-size: 1.87vh;
+}
+.container {
+    width: 80.8vw;
+    margin: 0 auto;
+}
+.section {
+    margin-bottom: 7.34vh;
+}
+.description__title {
+    font-size: 3.75vh;
+    width: 68.26vw;
+}
+.description__text {
+    font-size: 2.18vh;
+    width: 71.2vw;
+    margin-bottom: 6.09vh;
+}
+.description__image {
+    position: static;
+    width: 77.3vw;
+    height: 29.21vh;
+    margin-bottom: 0;
+}
+
+/* ВСе стало лучше  */
+.title__become-better  {
+    color: #82B428;
+    width: 50.26vw;
+}
+
+/* Скидки для своих */
+.discount {
+    background: url('../images/mobile/backgrounds/Яркая\ жизнь\ в\ 15\ минутах\ от\ центра4\ 1.png');
+    height: 99.84vh;
+    background-size: cover;
+}
+.discount__title {
+    width: 42.26vw;
+}
+.discount__description {
+    font-size: 2.81vh;
+    width: 67.46vw;
+}
+.button__discount {
+    position: absolute;
+    width: 49.6vw;
+    font-size: 2.81vh;
+    top: 45.46vh;
+}
+.discount-application {
+    width: 80vw;
+    height: 40vh;
+    left: 5vw;
+}
+.discount-application__title {
+    width: 60vw;
+}
+.discount-application__form {
+    width: 60vw;
+    left: 5vw;
+}
+.input {
+    width: 60vw;
+    font-size: 2.81vh;
+}
+.button_color_blue {
+    font-size: 2.81vh;
+    width: 35vw;
+}
+.input-form__checkbox {
+    font-size: 2vh;
+    width: 70vw;
+}
+/* Просто переезжаете */
+.easy-move__description {
+    font-size: 2.81vh;
+    width: 70.91vw;
+    position: relative;
+}
+.easy-move-container {
+    height: 96.93vh;
+}
+.easy-move__description_down {
+    position: absolute;
+    top: 60.55vh;
+    width: 70.31vw;
+    left: 0;
+}
+.easy-move__picture {
+    position: absolute;
+    width: 100vw;
+    height: 39.21vh;
+    left: -10vw;
+    top: 31.31vh;
+}
+/* Хочу жить в ... */
+.wantlive {
+    background: url('../images/mobile/backgrounds/WantLIveToMicrocity.png');
+    height: 100vh;
+    background-size: cover;
+}
+.wantlive-container {
+    position: relative;
+}
+.wantlive-input {
+    position: absolute;
+    left: 0;
+    top: 34.53vh;
+}
+.wantlive-input__name,
+.wantlive-input__phone {
+    left: 0;
+    width: 80vw;
+}
+.wantlive__title title,
+.wantlive__description {
+    position: absolute;
+}
+.button-send {
+    font-size: 2.81vh;
+    width: 49.6vw;
+    left: 0;
+}
+.wantlive__title {
+    width: 63.7vw;
+    top: 63.18vh;
+}
+.wantlive__description {
+    width: 70vw;
+    top: 73vh;
+    font-size: 2.81vh;
+}
+/* footer */
+.footer {
+    height: 56.4vh;
+}
+.container-footer {
+    padding: 5.15vh 0;
+}
+.footer-logo,
+.socials,
+.footer-data,
+.phone,
+.info-worker,
+.footer-politics {
+    position: static;
+}
+.footer-info {
+    position: relative;
+}
+.footer-logo {
+    width: 32.8vw;
+    margin: 0 28% 9vh;
+}
+.socials {
+    transform: scale(2);
+    position: absolute;
+    top: -5vh;
+    left: 11vw;
+    margin: 0 25%;
+}
+.socials__link {
+    width: 10vh;
+    aspect-ratio: 1;
+}
+.phone {
+    font-size: 2.06vh;
+}
+.info-worker,
+.footer-politics {
+    font-size: 1.56vh;
+}
+.info-worker {
+    width: 65.6vw;
+    margin: 15vh auto 5vh;
+}
+.footer-partner__logo {
+    top: 28.59vh;
+    left: 26.86vw;
+}
+.footer-logo,
+.footer-partner__logo{
+    transform: scale(1);
+}
