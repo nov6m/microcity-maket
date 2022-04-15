@@ -184,7 +184,73 @@ body {
 }
 /* Квартиры для яркой жизни */
 .section-floor-for {
-    height: 96.87vh;
+    height: 104vh;
+}
+.plan-slides_size {
+    height: 96vh;
+    width: 80vw;
+    border-radius: 50px;
+}
+.plan-slide1 {
+    background: url('../images/mobile/backgrounds/plan-slide-background.png');
+    background-size: cover;
+}
+.plan-slide2 {
+    background: url('../images/mobile/backgrounds/plan-slide-background.png');
+    background-size: cover;
+}
+.plan-slide3 {
+    background: url('../images/mobile/backgrounds/plan-slide-background.png');
+    background-size: cover;
+}
+.plan-slide4 {
+    background: url('../images/mobile/backgrounds/plan-slide-background.png');
+    background-size: cover;
+}
+.plan__title_fsize {
+    font-size: 2.8vh;
+    width: 53.6vw;
+    margin: 3vh auto;
+
+}
+.plan__description_fsize {
+    font-size: 1.95vh;
+    width: 53.6vw;
+    margin: 0 auto;
+    text-align: center;
+}
+.plan__preview {
+    left: 0;
+    width: 58.4vw;
+    margin: 0 auto;
+    position: static;
+    padding-top: 5vh;
+}
+.plan__preview > img {
+    height: 29.21vh;
+    width: 65.86vw;
+    position: static;
+}
+.plan__preview_container {
+    position: static;
+}
+.plan__preview_container > button {
+    font-size: 2.18vh;
+    width: 47.2vw;
+    position: absolute;
+    top: 60vh;
+    left: 16.5vw;
+}
+.plan__count {
+    display: none;
+}
+.plan-slides > hr {
+    top: 67vh;
+    left: 12vw;
+    width: 57.86vw;
+}
+.plan__info {
+    display: none;
 }
 /* Второй плиточный слайдер */
 .tiles__title-exmple {
@@ -272,6 +338,109 @@ body {
     left: 3.2vw;
     top: 85.31vh;
     width: 73.3vw;
+}
+/* Прекрасный в деталях */
+.title__microcity,
+.button__more {
+    display: none;
+}
+.section-slider-city {
+    height: 100vh;
+    width: 80vw;
+}
+.tile_slide1-microcity {
+    background: url('../images/mobile/info-about-city-slider.png');
+    background-size: cover;
+    height: 94vh;
+    width: 100vw;
+}
+.tile_slide2-microcity {
+    background: url('../images/mobile/info-about-city-slider.png');
+    background-size: cover;
+    height: 94vh;
+    width: 100vw;
+}
+.tile_slide3-microcity {
+    background: url('../images/mobile/info-about-city-slider.png');
+    background-size: cover;
+    height: 94vh;
+    width: 100vw;
+}
+.tile_slide4-microcity {
+    background: url('../images/mobile/info-about-city-slider.png');
+    background-size: cover;
+    height: 94vh;
+    width: 100vw;
+}
+.tile_slide5-microcity {
+    background: url('../images/mobile/info-about-city-slider.png');
+    background-size: cover;
+    height: 94vh;
+    width: 100vw;
+}
+.tile_slide6-microcity {
+    background: url('../images/mobile/info-about-city-slider.png');
+    background-size: cover;
+    height: 94vh;
+    width: 100vw;
+}
+.tile_slide7-microcity {
+    background: url('../images/mobile/info-about-city-slider.png');
+    background-size: cover;
+    height: 94vh;
+    width: 100vw;
+}
+.tile_slide8-microcity {
+    background: url('../images/mobile/info-about-city-slider.png');
+    background-size: cover;
+    height: 94vh;
+    width: 100vw;
+}
+.tile_slide9-microcity {
+    background: url('../images/mobile/info-about-city-slider.png');
+    background-size: cover;
+    height: 94vh;
+    width: 100vw;
+}
+.tiles__slider_display_block {
+    display: block;
+}
+.tiles__slides_position {
+    left: -10vw;
+    opacity: 0;
+    transition: opacity ease-in-out .5s;
+}
+.tiles__title_fsize {
+    font-size: 3.3vh;
+    text-align: center;
+    padding-left: 1vw;
+}
+.tiles__control-microcity {
+    left: 16.5vw;
+    top: 98vh;
+}
+#tiles-slide-microcity1:checked ~ .tiles__controls > .tiles__control:nth-of-type(1),
+#tiles-slide-microcity2:checked ~ .tiles__controls > .tiles__control:nth-of-type(2),
+#tiles-slide-microcity3:checked ~ .tiles__controls > .tiles__control:nth-of-type(3),
+#tiles-slide-microcity4:checked ~ .tiles__controls > .tiles__control:nth-of-type(4),
+#tiles-slide-microcity5:checked ~ .tiles__controls > .tiles__control:nth-of-type(5),
+#tiles-slide-microcity6:checked ~ .tiles__controls > .tiles__control:nth-of-type(6),
+#tiles-slide-microcity7:checked ~ .tiles__controls > .tiles__control:nth-of-type(7),
+#tiles-slide-microcity8:checked ~ .tiles__controls > .tiles__control:nth-of-type(8),
+#tiles-slide-microcity9:checked ~ .tiles__controls > .tiles__control:nth-of-type(9) {
+    background: #2DA3DC;
+}
+#tiles-slide-microcity1:checked ~.tiles__display > .tiles__slider > .tile_slide1-microcity,
+#tiles-slide-microcity2:checked ~.tiles__display > .tiles__slider > .tile_slide2-microcity,
+#tiles-slide-microcity3:checked ~.tiles__display > .tiles__slider > .tile_slide3-microcity,
+#tiles-slide-microcity4:checked ~.tiles__display > .tiles__slider > .tile_slide4-microcity,
+#tiles-slide-microcity5:checked ~.tiles__display > .tiles__slider > .tile_slide5-microcity,
+#tiles-slide-microcity6:checked ~.tiles__display > .tiles__slider > .tile_slide6-microcity,
+#tiles-slide-microcity7:checked ~.tiles__display > .tiles__slider > .tile_slide7-microcity,
+#tiles-slide-microcity8:checked ~.tiles__display > .tiles__slider > .tile_slide8-microcity,
+#tiles-slide-microcity9:checked ~.tiles__display > .tiles__slider > .tile_slide9-microcity {
+    opacity: 1;
+    z-index: 1;
 }
 
 /* Скидки для своих */
